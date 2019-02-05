@@ -89,7 +89,7 @@ class motor_control():
             motor_right.rot_speed_mode(False)
             motor_right.trans_speed_mode(True)
             motor_right.target_trans_speed = speed
-        if motor == 0 or motor == 2:
+        if motor == 1 or motor == 2:
             motor_left.power_mode(False)
             motor_left.rot_position_mode(False)
             motor_left.rot_speed_mode(False)
