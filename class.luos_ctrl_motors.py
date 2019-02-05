@@ -80,5 +80,6 @@ if __name__== "__main__":
     time.sleep(5)
     zer.set_power(80,0)
     zer.set_power(30,1)
+    time.sleep(5)
     zer.set_power(0,2)
     time.sleep(1)
