@@ -114,7 +114,9 @@ if __name__== "__main__":
     print("deep in the main function")
     # Set the Object by connecting Rpy by IP
     r = Robot("raspberrypi.local")
-
+    if Robot is None:
+        print ("Cannot connect to Pi")
+    
     print("loading modules :\n")
     print (r.modules)
 
