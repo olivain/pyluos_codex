@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 #coding: utf-8
 
+"""
+LICENCE AGPL V3
+Please read the following content
+https://www.gnu.org/licenses/agpl-3.0.html
+"""
+
+# Import from Luos Robotics to manipulate modules
 from pyluos import Robot
 import time
-
 
 
 class motor_control():
