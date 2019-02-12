@@ -1,6 +1,8 @@
 # PROJECT MAILLAGE
 
-This project aim to manipulate a Robot based on [Pyluos] (https://www.luos-robotics.com/fr/) Technologies
+This project aim to manipulate a Robot based on [Pyluos] (https://www.luos-robotics.com/fr/) Technologies.
+The project is running under Python3.
+
 We assembled differents modules together: 
 - One [raspberry Zero] (https://www.kubii.fr/pi-zero-v13/1401-raspberry-pi-zero-v13-kubii-3272496006973.html)
 - Two [Controlled-motors modules] (https://www.luos-robotics.com/en/documentation/controlled-motor/)
@@ -24,6 +26,10 @@ mkvirtualenv -p /usr/bin/python3 <venv-name>
 
 Workon <venv-name>
 
+### Quickstart
 
+#### Install requirements
+
+pip3 install -r requirements.txt
 
 
