@@ -40,7 +40,9 @@ To connect your raspberrypi zero to a network, you need the followings parts:
 - A computer. We recommand to use free operating system but it's not mandatory.
 
 Create a new file called wpa_supplicant.conf in the directory boot and fill it with it:
+
 ```
+
 country=fr
 update_config=1
 ctrl_interface=/var/run/wpa_supplicant
@@ -52,3 +54,14 @@ network={
 }
 
 ```
+
+#### Connecting the raspy zero
+In your file.py or [Junpyter] (https://jupyter.org/) or on your python3 console
+
+```
+from pyluos import Robot
+robot = Robot("raspberrypi.local")
+robot.modules
+
+```
+If the address raspberrypi.local doesn't work, try to connect directly to the ip address
