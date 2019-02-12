@@ -9,18 +9,18 @@ We assembled differents modules together:
 
 ### Creating virtualenv
 
-Install virtualenv package:
+#### Install virtualenv package:
 
-'''bash
+'''
 sudo apt-get install python3 python3-pip virtualenvwrapper
 '''
 
-Create your virtualenv:
+#### Create your virtualenv:
 '''
 mkvirtualenv -p /usr/bin/python3 <venv-name>
 '''
 
-Activate your virtualenv:
+#####Activate your virtualenv:
 '''
 Workon <venv-name>
 '''
