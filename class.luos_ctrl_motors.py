@@ -12,6 +12,9 @@ from pyluos import Robot
 import time
 
 
+"""
+Class to setup Motor's object
+"""
 class motor_control():
     def __init__(self):
         print("Initializing routine :\n")

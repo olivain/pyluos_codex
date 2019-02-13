@@ -64,4 +64,6 @@ robot = Robot("raspberrypi.local")
 robot.modules
 
 ```
-If the address raspberrypi.local doesn't work, try to connect directly to the ip address
+If the address raspberrypi.local doesn't work, try to connect directly to the ip address.
+
+
